@@ -1,0 +1,75 @@
+* {
+    margin: 4px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.unifrakturmaguntia-regular {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.cabeçalho {
+    background-color: #ffffff;
+}
+
+.título {
+    font-size: 70px;
+    font-weight: bolder;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav {
+    background-color: #550b0b;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 45px ;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    border-radius: 6px;
+}
+
+.banner {
+    width: 1485px;
+    height: 400px;
+    display: flex;
+}
+
+footer {
+    background-color: #550b0b;
+    font-size: 15px ;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+}
